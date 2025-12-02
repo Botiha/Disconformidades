@@ -10,3 +10,4 @@ fecha_final = ""
 # Carpeta donde se guardarán los archivos de salida.
 # Puede ser una ruta absoluta o relativa al proyecto.
 output_folder = "output"
+control_excel = "Disconformidades.xlsx"
