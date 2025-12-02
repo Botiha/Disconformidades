@@ -1,0 +1,12 @@
+# Archivo de configuración para el Bot de Disconformidades
+
+[fechas]
+# Dejar en blanco para usar las fechas por defecto (ej. mes actual).
+# Formato: "YYYY-MM-DD"
+fecha_inicio = ""
+fecha_final = ""
+
+[rutas]
+# Carpeta donde se guardarán los archivos de salida.
+# Puede ser una ruta absoluta o relativa al proyecto.
+output_folder = "output"
