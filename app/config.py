@@ -12,7 +12,7 @@ OUTPUT_DIR.mkdir(exist_ok=True)
 # We use the Bizagi URL which redirects to SSO if needed
 URL = "https://digital-coordinador.bizagi.com/"
 
-# Credentials
-# TODO: In production, load these from environment variables
-USERNAME = "facarvajalz@cge.cl"
-PASSWORD = "J&99Z9BM10gf"
+# Credentials - load from environment variables
+# Set APP_USERNAME and APP_PASSWORD in your environment or a .env file (never commit credentials)
+USERNAME = os.environ.get("APP_USERNAME")
+PASSWORD = os.environ.get("APP_PASSWORD")
